@@ -9,14 +9,8 @@ on:
 jobs:
 #This workflow contains single job called build  
   build:
-    name: Build
+    # name: Build
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v2
-        
         - name: Run one line command 
-        - run: echo "The job was automatically triggered by a"
-
-        - name: Run multiline  script
-        - run : echo "This is multiline "
-                echo "This is multiline "
+        - run: echo "The job was automatically triggered by"
