@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Run one line command 
-        - run: echo "The job was automatically triggered by"
+          run: echo "The job was automatically triggered by"
