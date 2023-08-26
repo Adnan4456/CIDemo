@@ -20,8 +20,12 @@ jobs:
     steps: 
       - name: Checkout code
         uses:  actions/checkout@v2
-        
-      - name: Run lint 
+
+          # Runs a single command using the runners shell
+#      - name: Run shell script
+#        run: ./your_script.sh
+
+      - name: Run lint
         run: ./gradlew lintDebug
 
       - name: Upload html test report 
